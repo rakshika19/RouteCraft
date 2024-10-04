@@ -1,0 +1,66 @@
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Main content styling */
+.main-content {
+    width: 80%;
+    padding: 20px;
+    background-color: #ecf0f1;
+    box-sizing: border-box;
+    
+}
+
+/* Header for Create Room button */
+.header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+/* Create Room button styling */
+.create-room-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    margin-top: 10px;
+}
+
+.create-room-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Rooms container */
+.rooms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Room card styling */
+.room-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px); /* Adjust to make 3 cards fit in one row */
+    box-sizing: border-box;
+}
+
+.room-card h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #0a0f24;;
+}
+
+.room-card p {
+    margin: 5px 0;
+    color:#0a0f24;
+}

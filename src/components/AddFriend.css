@@ -1,0 +1,89 @@
+/* AddFriend.css */
+
+.Friend-container {
+    display: flex;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.add-friend-container {
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    padding-right: 40px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color:#0a0f24 ;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .noofmem{
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color:#0a0f24 ;
+  }
+  .member{
+    margin-right: 25px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    
+  }
+  
+  .member-input {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .member-input input {
+    width: 30%;
+    margin-right: 2%;
+  }
+  
+  .member-input input:last-child {
+    margin-right: 0;
+  }
+  
+  .create-room-btn {
+    display: block;
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px;
+    
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 40px;
+  }
+  
+  .create-room-btn:hover {
+    background-color: #2980b9;
+  }
+  
